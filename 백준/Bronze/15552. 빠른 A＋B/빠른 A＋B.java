@@ -6,7 +6,7 @@ public class Main {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
-        int max = Integer.parseInt(br.readLine());  // 첫 번째 줄 입력받기
+        int max = Integer.parseInt(br.readLine());
 
         for (int i = 0; i < max; i++) {
             String[] input = br.readLine().split(" ");
